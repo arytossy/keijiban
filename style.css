@@ -1,0 +1,116 @@
+body {
+    
+}
+
+header img {
+    display: block;
+}
+
+header ul {
+    margin: 5px 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+main {
+    display: flex;
+    margin: 20px 0;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contents {
+    width: 70%;
+}
+
+.contents h1 {
+    margin-top: 0;
+    border-left: 5px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+}
+
+form, .article {
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+form {
+    margin: 10px 3px;
+}
+
+form h2 {
+    margin-top: 0;
+    border-left: 4px solid red;
+    padding-left: 5px;
+}
+
+form .item {
+    padding: 10px 0px;
+}
+
+form .textbox, textarea {
+    border: 1px solid #eee;
+    padding: 3px;
+}
+
+form .button {
+    border: 0px;
+    border-bottom: 3px solid #999;
+    border-radius: 3px;
+    padding: 3px 5px;
+    background-color: #bbb;
+    color: white;
+}
+
+.article {
+    margin: 3px 5px;
+}
+
+.article h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.article .contributor {
+    font-size: 10px;
+}
+
+.side {
+    width: 30%;
+}
+
+.category {
+    padding-bottom: 5px;
+}
+
+.category h2 {
+    margin-top: 0;
+    border-bottom: 2px dotted #ccc;
+}
+
+.category ul {
+    list-style-type: none;
+}
+
+footer {
+    clear: left;
+    background-color: black;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
